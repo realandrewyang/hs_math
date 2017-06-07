@@ -65,7 +65,7 @@ def Simulate():
                 if Guess[0]==ThreeCards[len(ShownCards)][0] and Guess[1]!=ThreeCards[len(ShownCards)][1]:
                     Money=Money+1
                 elif Guess[1]==ThreeCards[len(ShownCards)][1] and Guess[0]!=ThreeCards[len(ShownCards)][0]:
-                    Money=Money+1
+                    Money=Money+2
                 elif Guess[0]==ThreeCards[len(ShownCards)][0] and Guess[1]==ThreeCards[len(ShownCards)][1]:
                     Money=Money+10
                 elif ThreeCards[len(ShownCards)][1]!=1:
