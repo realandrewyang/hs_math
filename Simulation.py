@@ -1,10 +1,15 @@
+#I wrote this program for my AP Statistics Summative in which I had to design a casino game and calculate
+#the predicted odds of a player winning the game. Because the game could theoretically continue forever
+#in certain cases, I decided to use a recursive simulation instead of manually calculating the probabilities.
+
+
 import math
 import random
 import statistics
 
 Cards=[]
 
-#Each card is defined as a linked list and assigned two values, the first for the suit and the second for the number
+#Each card is defined as a list and assigned two values, the first for the suit and the second for the number
 #Cards is the linked list that contains each individual card
 for i in range(1,5):
     for j in range(1,14):
