@@ -1,3 +1,3 @@
-# Lisgar
-High School Projects
-This repository is mainly for projects created by Andrew Yang during high school (2014-2018)
+# Python Projects
+
+This repository contains a variety of Python 3 Modules that I made in high school to help me do my math homework faster. Topic range from analytic geometry, combinatorics, number theory, and more.
